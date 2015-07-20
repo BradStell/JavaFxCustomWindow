@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="rootWindow" stylesheets="/sample/stylesheet.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="closeButton" layoutX="567.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="33.0" />
+      <Button fx:id="maximizeButton" layoutX="534.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="33.0" />
+      <Button fx:id="minimizeButton" layoutX="501.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="33.0" />
+      <Label fx:id="titleLabel" layoutX="283.0" layoutY="5.0" text="Label" />
+      <ImageView fx:id="logoImage" fitHeight="31.0" fitWidth="33.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

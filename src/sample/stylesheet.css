@@ -1,0 +1,67 @@
+#rootWindow {
+    -fx-background-color: #373737;
+}
+
+#closeButton {
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/close.png");
+    -fx-background-repeat:no-repeat;
+}
+#closeButton:hover {
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/close-pressed.png");
+    -fx-background-repeat:no-repeat;
+}
+#closeButton:pressed {
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/close-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+
+#maximizeButton {
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/maximize.png");
+    -fx-background-repeat:no-repeat;
+}
+#maximizeButton:hover {
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/maximize-pressed.png");
+    -fx-background-repeat:no-repeat;
+}
+#maximizeButton:pressed {
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/maximize-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+
+#minimizeButton {
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/minimize.png");
+    -fx-background-repeat:no-repeat;
+}
+#minimizeButton:hover {
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/minimize-pressed.png");
+    -fx-background-repeat:no-repeat;
+}
+#minimizeButton:pressed {
+    -fx-background-color: null;
+    -fx-background-image:url("../resources/minimize-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+
+#titleLabel {
+    -fx-text-fill: orangered;
+}
+
+#logoImage {
+    -fx-image: url("../resources/window_icon.png");
+}
